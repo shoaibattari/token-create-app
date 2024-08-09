@@ -11,7 +11,7 @@ const LoginPage = () => {
 
   const handleLogin = () => {
     if (username === "admin" && password === "admin") {
-      router.push(`/tokenCreate`);
+      router.push(`/TokenCreator`);
     } else {
       alert("Wrong password!");
     }
